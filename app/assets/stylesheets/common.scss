@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app_basic {
+  background-color: rgb(197, 3, 3);
+  color: white;
+  padding: 16px;
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+h3, table, .notice {
+  margin-left: 16px;
+}
+
+table thead {
+  background: pink;
+}
+
+table th, table td {
+  background: #f1c8c861;
+  padding: 10px;
+  text-align: center;
+  border: solid black 1px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+.notice {
+  background-color: rgba(144, 238, 144, 0.361);
+  border: solid 4px lightgreen;
+  width: 400px;
+  padding: 16px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+.memo_area {
+  width: 240px;
+  height: 120px;
+}

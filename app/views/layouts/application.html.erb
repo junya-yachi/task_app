@@ -11,6 +11,21 @@
   </head>
 
   <body>
+
+    <header>
+      <h1 class="app_basic" >Ruby on Rails スケジュール管理アプリ</h1>
+    </header>
+
     <%= yield %>
+
+    <footer>
+      <h2 class="app_basic" >
+        現在の日時 : <%= Time.now.to_s(:datetime_jp) %>
+        <% if controller.action_name == "index" %>
+        スケジュール合計 : <%= @tasks.count %>
+        <% end %>
+      </h2>
+    </footer>
+
   </body>
 </html>
